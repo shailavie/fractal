@@ -1,0 +1,32 @@
+canvas {
+  background-color: black;
+  width: auto;
+}
+
+.app {
+  display: flex;
+  justify-content: stretch;
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 40px;
+  color: wheat;
+  background-color: black;
+  margin: 10;
+}
