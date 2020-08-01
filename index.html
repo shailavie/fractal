@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- <button onclick="saveCanvas()">save canvas</button> -->
+    <button onclick="saveCanvas('puk')">Save Canvas</button>
     <div class="app">
       <canvas id="canvas"></canvas>
     </div>
     <script type="module" src="./main.js"></script>
+    <script>
+      const saveCanvas = (file) => {
+        console.log("got file", file);
+        window.sessionStorage.setItem("file", JSON.stringify(file));
+      };
+    </script>
   </body>
 </html>
